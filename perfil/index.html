@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeane ❤️ Junior</title>
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Canvas dos corações -->
+    <canvas id="heartCanvas"></canvas>
+
+    <!-- Tela Preta com Botão -->
+    <section id="intro">
+      <div class="centered">
+        <button id="startButton">Clique para relembrar nosso amor ❤️</button>
+      </div>
+    </section>
+
+    <!-- Home oculta inicialmente -->
+    <section id="home" class="hidden">
+      <h1 id="typewriter"></h1>
+
+      <!-- Carrossel -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/foto1.jpg" alt="Foto 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/foto2.jpg" alt="Foto 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/foto3.jpg" alt="Foto 3" />
+          </div>
+        </div>
+
+        <!-- Botões de navegação -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- Paginação -->
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- Texto romântico -->
+      <div class="romantic-text">
+        <p>
+          Quem diria que uma conversa de trabalho viraria a melhor parceria da
+          minha vida? De cliente virei fã, de fã virei namorada… e agora, 1
+          ano depois, continuo me apaixonando por você todos os dias (mesmo
+          quando você fala de cláusulas e contratos! 😅).
+        </p>
+        <p>
+          Obrigada por ser meu advogado preferido, meu companheiro e meu
+          motivo de tantas risadas. Esse site é só um jeitinho de mostrar o
+          quanto eu amo estar com você — até quando você me corrige
+          juridicamente! 😂
+        </p>
+        <p>
+          Feliz 1 ano, Junior. Que venham muitos outros capítulos dessa
+          história linda (com ou sem jurisprudência 💼❤️).
+        </p>
+        <p style="text-align: right; margin-top: 2rem">
+          Com carinho,<br />
+          Jeane 💘
+        </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
